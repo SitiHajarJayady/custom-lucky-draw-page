@@ -1,38 +1,35 @@
-# custom-lucky-draw-page
+# custom-lucky-draw-page (Client-Specific Modifications)
 
-A flexible lucky draw display system tailored to meet various client requirements, designed to be used during live events. The system supports different winner display modes, prevents duplicate winners, and provides admin tools for result management.
+This lucky draw page was modified to align with specific client requirements for a live event. The changes focused on enhancing flexibility in how winners are displayed and improving the admin tools for managing results.
 
 ## Overview
 
-This lucky draw tool dynamically adapts based on the configured number of winners, and is used to display participant names or IDs in real time during event ceremonies.
+The system displays lucky draw winners either individually or in groups, depending on a configurable parameter. Additional logic was added to prevent duplicate winners and support admin operations.
 
 ## Key Features
 
-- **Dual Display Modes**
-  - Supports two types of displays:
-    - **Single winner draw**
-    - **Multiple winners draw** (e.g. 7 winners as shown in the demo)
-  - Behavior and layout adapt automatically based on a parameter
+- **Configurable Display Modes**
+  - Modified the layout to support:
+    - **Single-winner display**
+    - **Multiple-winner display** (e.g., 7 winners at once)
+  - Behavior dynamically adjusts based on draw parameter
 
-- **Winner Display Customization**
-  - Adjusted layout to properly format and center winner details for 1 or multiple winners
-  - Clean and clear design optimized for large-screen projection
+- **Winner Display Enhancements**
+  - Refined visual layout to ensure clean and balanced presentation, whether showing 1 or multiple winners
 
-- **Duplicate Prevention**
-  - System checks the database to **exclude already-drawn winners**
-  - Ensures fairness by preventing repeat selections
+- **Duplicate Winner Prevention**
+  - Integrated logic to check the database and **exclude participants who have already won**
 
-- **Admin Tools**
-  - **Download Excel** of selected winners
-  - **Delete row** functionality to remove selected results if needed
+- **Admin Controls**
+  - Added functionality to **download results as Excel**
+  - Implemented a **delete row** feature for managing winner data in real time
 
 ## Contributions
 
-- Customized the layout to support both single and multiple-winner scenarios
-- Added logic to dynamically switch behavior based on draw parameters
-- Implemented database checking to ensure unique winner selection
-- Developed export and deletion tools for admin use
-- Designed UI for live event screen display and visual impact
+- Modified the lucky draw page to match event-specific requirements
+- Customized layout and logic for dynamic winner display
+- Integrated database checks to prevent duplicate winners
+- Implemented export and deletion features for admin convenience
 
 ## Watch Demo
 https://youtu.be/sCZiS7YWEcY
