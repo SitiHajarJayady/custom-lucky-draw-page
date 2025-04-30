@@ -32,4 +32,4 @@ The system displays lucky draw winners either individually or in groups, dependi
 - Implemented export and deletion features for admin convenience
 
 ## Watch Demo
-https://youtu.be/sCZiS7YWEcY
+- https://youtu.be/sCZiS7YWEcY
